@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%), #121928;
+}
+
+.logo {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo>span {
+    font-weight: 600;
+}
+
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#search {
+    background-color: #283240;
+    font-size: 16px;
+    color: #fff;
+}
+
+.blog-post {
+    color: #ffffff;
+}
+
+.blog-post-header {
+    font-size: 14px;
+}
+
+.blog-post-date {
+    color: #ADB1B7;
+}
+
+.blog-post-title {
+    font-size: 24px;
+    line-height: 158%;
+    font-weight: 400;
+}
+
+.author-name {
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.author-position {
+    font-size: 14px;
+    line-height: 200%;
+    color: #ADB1B7;
+}
+
+.text-main {
+    font-size: 20px;
+    line-height: 160%;
+    color: #fff;
+}
+
+.text-reflection {
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+}
+
+footer {
+    font-size: 16px;
+    line-height: 175%;
+    color: #ADB1B7;
+}
