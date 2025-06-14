@@ -1,0 +1,56 @@
+body {
+    background:
+        linear-gradient(225deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%),
+        linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%),
+        #f39494;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+form {
+    background-color: #FFFEFE;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #333333;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #666;
+}
+
+input[name="company"] {
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+input {
+    background-color: #f5f5f5;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999;
+}
+
+button {
+    background-color: #089FE0;
+    color: #ffffff;
+}
+
+label[for="agree"] {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+}
+
+label[for="agree"] a {
+    text-decoration: none;
+    color: #089fe0;
+}
