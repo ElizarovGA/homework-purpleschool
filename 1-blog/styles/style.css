@@ -1,5 +1,10 @@
 body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%), #121928;
+    margin: 0;
+}
+
+header {
+    padding: 70px 0;
 }
 
 .logo {
@@ -14,6 +19,7 @@ body {
 
 .main-menu ul {
     list-style: none;
+    padding: 0;
 }
 
 .main-menu a {
@@ -23,6 +29,11 @@ body {
 }
 
 #search {
+    box-sizing: border-box;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    padding-left: 18px;
     background-color: #283240;
     font-size: 16px;
     color: #fff;
@@ -38,12 +49,18 @@ body {
 
 .blog-post-date {
     color: #ADB1B7;
+    margin: 0 0 14px 0;
 }
 
 .blog-post-title {
     font-size: 24px;
     line-height: 158%;
     font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+.blog-post-author {
+    margin: 0 0 28px 0;
 }
 
 .author-name {
@@ -57,10 +74,15 @@ body {
     color: #ADB1B7;
 }
 
+.blog-post-img {
+    margin: 0 0 69px 0;
+}
+
 .text-main {
     font-size: 20px;
     line-height: 160%;
     color: #fff;
+    margin: 0 0 30px 0;
 }
 
 .text-reflection {
@@ -73,4 +95,5 @@ footer {
     font-size: 16px;
     line-height: 175%;
     color: #ADB1B7;
+    margin: 70px 0;
 }
